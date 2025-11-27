@@ -1,6 +1,6 @@
 ## voctool
 
-VOctool is a small command-line tool for managing VOC (VAST On Cloud) resources.
+voctool is a small command-line tool for managing VOC (VAST On Cloud) resources.
 
 It focuses on safe, authenticated operations and supports AWS, GCP, and Azure via their official cloud SDKs and CLIs.
 

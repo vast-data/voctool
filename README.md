@@ -1,6 +1,6 @@
 ## voctool
 
-voctool is a small command-line tool for managing VOC (VAST On Cloud) resources.
+voctool is a small command-line tool for managing VoC (VAST On Cloud) resources.
 
 It focuses on safe, authenticated operations and supports AWS, GCP, and Azure via their official cloud SDKs and CLIs.
 
@@ -93,14 +93,14 @@ If you run `voctool` with no arguments, it prints help and a command tree.
 These flags are available for all commands:
 
 - **`--verbose`, `-v`**: Enable verbose output.
-- **`--version`**: Show the VOctool version.
+- **`--version`**: Show the voctool version.
 
 ## Authentication
 
-VOctool uses the official cloud SDKs and CLIs to authenticate. When a command requires access to a cloud provider:
+voctool uses the official cloud SDKs and CLIs to authenticate. When a command requires access to a cloud provider:
 
 - The tool automatically detects if you are authenticated.
-- If authentication is missing or expired, VOctool will:
+- If authentication is missing or expired, voctool will:
   - Explain what authentication command needs to run (such as a `gcloud`, `aws`, or `az` login flow).
   - Ask for your **explicit consent** before running anything on your behalf.
 - After authentication completes, the command re-validates access before changing any resources.

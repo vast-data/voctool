@@ -1,8 +1,8 @@
-## voctool
+## VAST on Cloud CLI
 
-voctool is a small command-line tool for managing VoC (VAST On Cloud) resources.
+VAST on Cloud, `voctool`, is a CLI to manage VAST On Cloud (VOC) resources.
 
-It focuses on safe, authenticated operations and supports AWS, GCP, and Azure via their official cloud SDKs and CLIs.
+It focuses on secure operations and supports AWS, GCP, and Azure via their official cloud SDKs and CLIs.
 
 ## Installation (from GitHub Releases)
 

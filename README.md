@@ -1,8 +1,8 @@
-## voctool
+## VAST on Cloud Tools
 
-voctool is a small command-line tool for managing VoC (VAST On Cloud) resources.
+VAST on Cloud, `voctool`, is a small set of tools used by terraform to manage VAST On Cloud (VOC) resources.
 
-It focuses on safe, authenticated operations and supports AWS, GCP, and Azure via their official cloud SDKs and CLIs.
+It focuses on secure operations and supports AWS, GCP, and Azure via their official cloud SDKs and CLIs.
 
 ## Installation (from GitHub Releases)
 
@@ -106,5 +106,4 @@ voctool uses the official cloud SDKs and CLIs to authenticate. When a command re
 - After authentication completes, the command re-validates access before changing any resources.
 
 You do not need to manage credentials directly; just ensure the respective cloud CLIs are installed and available on your `PATH`.
-
 
